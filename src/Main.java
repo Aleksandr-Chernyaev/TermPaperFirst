@@ -22,11 +22,17 @@ public class Main {
 
     public static void main(String[] args) {
         initEmployees();
+        System.out.println();
         printEmployees();
+        System.out.println();
         System.out.println("Общая сумма ЗП сотрудников в месяц: " + calculateAmountOfSalaries());
+        System.out.println();
         System.out.println("Сотрудник с минимальной ЗП: " + findEmployeeWithMinimumSalary());
+        System.out.println();
         System.out.println("Сотрудник с максимальной ЗП: " + findEmployeeWithMaxSalary());
+        System.out.println();
         System.out.println("Средняя ЗП: " + calculateAverageOfSalaries());
+        System.out.println();
         printFullNames();
 
     }
